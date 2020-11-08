@@ -1,0 +1,25 @@
+{
+  "name": "PotesAppWeb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel -p 3000 index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "Maxime BOUNAAS-FERRET",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "firebase": "^8.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "regenerator-runtime": "^0.13.7",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "sass": "^1.29.0"
+  }
+}

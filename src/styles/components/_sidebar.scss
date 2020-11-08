@@ -1,0 +1,99 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 100vh;
+  overflow: auto;
+  background-color: $accent;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  .sidebarTop {
+    @extend .center-h;
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+
+    .sidebarProfilPhoto {
+      $imgSize: 75px;
+      width: $imgSize;
+      height: $imgSize;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    .sidebarInfo {
+      margin-left: 1rem;
+      font-size: 1.2rem;
+    }
+  }
+
+  .sidebarMain {
+    padding-bottom: 3rem;
+    .sidebarConversation {
+      @extend .center-h;
+      cursor: pointer;
+      width: 100%;
+      padding: .5rem 1rem;
+
+      &:hover {
+        background-color: darken($accent, 10%);
+      }
+
+      .conversationImg {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+
+      .conversationInfos {
+        margin-left: 1rem;
+
+        .conversationTitle {
+          font-weight: bold;
+          font-size: 1.1rem;
+          margin-bottom: .5rem;
+        }
+
+        .conversationLastText {
+          color: grey;
+          font-style: italic;
+          font-size: .9rem;
+        }
+      }
+    }
+  }
+
+  .sidebarFooter {
+    @extend .center-h;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 25%;
+    background-color: darken($accent, 20%);
+    padding: .3rem 0;
+    padding-left: .5rem;
+
+    .addConversationInput {
+      outline: none;
+      border: none;
+      flex: 1;
+      height: 100%;
+      padding: .5rem;
+      border-radius: .3rem;
+    }
+    .addConvSubBtn {
+      @extend .center;
+      padding: 0 .5rem;
+
+      .addConvSubIcon {
+        cursor: pointer;
+        color: #4cd34c;
+        background-color: #fff;
+        border-radius: 50%;
+      }
+    }
+  }
+}

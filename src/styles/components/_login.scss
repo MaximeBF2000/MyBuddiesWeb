@@ -1,0 +1,21 @@
+.login {
+  @extend .center;
+  height: 100vh;
+
+  .box {
+    @extend .center;
+    box-shadow: 0 2px 15px lightgrey;
+    padding: 5rem 3rem;
+
+    .title {
+      margin-bottom: 5rem;
+    }
+
+    .loginBtn {
+      background-color: $primary;
+      color: #fff;
+      padding: .5rem 1rem;
+      border-radius: 3px;
+    }
+  }
+}

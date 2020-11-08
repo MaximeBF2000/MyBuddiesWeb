@@ -1,0 +1,22 @@
+// Vars
+$ff: sans-serif;
+$primary: #4cd34c;
+$accent: lightgrey;
+
+// Classes
+.center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.center-h {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.center-v {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

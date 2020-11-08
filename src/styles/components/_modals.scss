@@ -1,0 +1,93 @@
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .box {
+    background-color: #fff;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    border-radius: 0.25rem;
+  }
+
+  &.deleteConvModal {
+    .box {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+
+      .modalTitle {
+        margin-bottom: 3rem;
+      }
+
+      .actionButtons {
+        display: flex;
+        flex-direction: row;
+        .button {
+          margin-left: 1rem;
+        }
+      }
+    }
+  }
+
+  &.managePeopleModal {
+    .box {
+      min-width: 350px;
+      .modalTitle {
+        text-align: center;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+      }
+      .peopleList {
+        overflow-y: auto;
+
+        .peopleItem {
+          @extend .center-h;
+          justify-content: space-between;
+          cursor: default;
+          padding: .3rem .5rem;
+
+          &:hover {
+            background-color: rgba($accent, .7);
+          }
+          .info {
+            .name {
+              font-weight: bold;
+              margin-bottom: .3rem;
+            }
+            .email {
+              color: grey;
+              font-size: .9rem;
+              font-style: italic;
+            }
+          }
+          .deleteBtn {
+            cursor: pointer;
+            color: red;
+          }
+        }
+      }
+
+      .addUser {
+        margin-top: 2rem;
+
+        .input {
+          padding: .3rem;
+          outline: none;
+          margin-right: .5rem;
+          border-radius: .25rem;
+          border: solid 1px;
+        }
+
+        .submitBtn {
+          background-color: $primary;
+          color: #fff;
+          padding: .3rem .5rem;
+          border-radius: .25rem;
+        }
+      }
+    }
+  }
+}
