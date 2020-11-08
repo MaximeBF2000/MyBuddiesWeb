@@ -7,8 +7,9 @@
   "scripts": {
     "start": "parcel -p 3000 index.html",
     "build": "parcel build index.html",
+    "reactBuild": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "Maxime BOUNAAS-FERRET",
@@ -19,6 +20,7 @@
     "firebase": "^8.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-scripts": "^4.0.0",
     "regenerator-runtime": "^0.13.7",
     "uuid": "^8.3.1"
   },
