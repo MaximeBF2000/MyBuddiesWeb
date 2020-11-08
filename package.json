@@ -2,10 +2,13 @@
   "name": "PotesAppWeb",
   "version": "1.0.0",
   "description": "",
+  "homepage": "maximebf2000.github.io/MyBuddiesWeb",
   "main": "index.js",
   "scripts": {
     "start": "parcel -p 3000 index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "Maxime BOUNAAS-FERRET",
