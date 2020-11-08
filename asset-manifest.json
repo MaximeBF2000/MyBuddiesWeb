@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/maximebf2000.github.io/MyBuddiesWeb/static/css/main.c3e0f44d.chunk.css",
+    "main.js": "/maximebf2000.github.io/MyBuddiesWeb/static/js/main.585a1007.chunk.js",
+    "main.js.map": "/maximebf2000.github.io/MyBuddiesWeb/static/js/main.585a1007.chunk.js.map",
+    "runtime-main.js": "/maximebf2000.github.io/MyBuddiesWeb/static/js/runtime-main.394cbf3f.js",
+    "runtime-main.js.map": "/maximebf2000.github.io/MyBuddiesWeb/static/js/runtime-main.394cbf3f.js.map",
+    "static/js/2.52ad42c5.chunk.js": "/maximebf2000.github.io/MyBuddiesWeb/static/js/2.52ad42c5.chunk.js",
+    "static/js/2.52ad42c5.chunk.js.map": "/maximebf2000.github.io/MyBuddiesWeb/static/js/2.52ad42c5.chunk.js.map",
+    "index.html": "/maximebf2000.github.io/MyBuddiesWeb/index.html",
+    "static/css/main.c3e0f44d.chunk.css.map": "/maximebf2000.github.io/MyBuddiesWeb/static/css/main.c3e0f44d.chunk.css.map",
+    "static/js/2.52ad42c5.chunk.js.LICENSE.txt": "/maximebf2000.github.io/MyBuddiesWeb/static/js/2.52ad42c5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.394cbf3f.js",
+    "static/js/2.52ad42c5.chunk.js",
+    "static/css/main.c3e0f44d.chunk.css",
+    "static/js/main.585a1007.chunk.js"
+  ]
+}
